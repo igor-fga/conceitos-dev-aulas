@@ -1,7 +1,9 @@
 const express = require('express');
 const {uuid, isUuid} = require('uuidv4'); //Importo somente a funcao uuid
+const cors = require('cors'); //segurança quando o front se comunica com back
 
 const app = express();
+app.use(cors()); //vai permitir qualquer front end tenha acesso ao back end
 
 //Por padrão o express não interpreta JSON. Aqui definimos que nossa aplicação vai receber JSON
 app.use(express.json());
