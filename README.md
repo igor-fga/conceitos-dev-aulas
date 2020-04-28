@@ -13,3 +13,18 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * [ReactJS](https://pt-br.reactjs.org/)
 * [React-Native](https://reactnative.dev/)
 * [TypeScript](https://www.typescriptlang.org/)
+
+### :information_source: Como usar
+Para clonar e executar essa aplicação, você precisar instalar o [Git](https://git-scm.com/) e o [Yarn](https://yarnpkg.com/).
+No seu terminal executar os comandos:
+
+```javascript
+#Clone o repositorio
+$ git clone https://github.com/igor-fga/conceitos-dev-aulas.git conceitos
+
+#Entre no repositorio
+cd conceitos
+
+#Escolha um dos projetos e instale as dependencias
+$ yarn install
+```
